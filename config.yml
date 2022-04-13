@@ -1,0 +1,41 @@
+baseURL: /
+languageCode: en-us
+title: Tim Rekelj
+enableEmoji: true
+theme: PaperMod
+
+params:
+  env: production
+  title: Tim Rekelj
+  description: This is my personal blog
+  defaultTheme: auto
+  showReadingTime: true
+
+  favicon: "/static/favicon.ico"
+
+  homeInfoParams:
+    Title: "Welcome to my blog"
+    Content: "My name is Tim Rekelj. I am a student at the Faculty of Computer and Information Science in Ljubljana, Slovenia. The way computers work is fascinating and this curiosity is what got me into computer science at a young age. I enjoy programming (especially game development) and I wish to make it my career in the future."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/timrekelj"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/tim-rekelj-28b2a9232/"
+    - name: instagram
+      url: "https://www.instagram.com/timrekelj/"
+    - name: spotify
+      url: "https://open.spotify.com/user/9nksd7kzg4meppj2r4kg6cldg?si=fce19c5d8fb34c31"
+    - name: buymeacoffee
+      url: "https://www.buymeacoffee.com/timrekelj"
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+outputs:
+  home:
+      - HTML
+      - RSS
+      - JSON
