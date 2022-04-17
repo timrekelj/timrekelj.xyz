@@ -2,6 +2,7 @@
 title: "Hello World"
 date: 2022-04-13T23:48:59+02:00
 tags: ["blog"]
+categories: ["intro"]
 desc: "This is description for my first blog"
 ---
 

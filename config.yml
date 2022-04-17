@@ -9,13 +9,26 @@ params:
   title: Tim Rekelj
   description: This is my personal blog
   defaultTheme: auto
+
   showReadingTime: true
 
   favicon: "/static/favicon.ico"
 
-  homeInfoParams:
-    Title: "Welcome to my blog"
-    Content: "My name is Tim Rekelj. I am a student at the Faculty of Computer and Information Science in Ljubljana, Slovenia. The way computers work is fascinating and this curiosity is what got me into computer science at a young age. I enjoy programming (especially game development) and I wish to make it my career in the future."
+  # homeInfoParams:
+  #   Title: "Welcome to my blog"
+  #   Content: "My name is Tim Rekelj. I am a student at the Faculty of Computer and Information Science in Ljubljana, Slovenia. The way computers work is fascinating and this curiosity is what got me into computer science at a young age. I enjoy programming (especially game development) and I wish to make it my career in the future."
+  profileMode:
+        enabled: true
+        title: "Tim Rekelj" # optional default will be site title
+        subtitle: "Welcome to my blog"
+        imageUrl: "https://i.ibb.co/5vX0Qgj/profile.jpg" # optional
+        #imageUrl: "static/profile.jpg" # optional
+        imageTitle: "Profile image" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+          - name: Open blog
+            url: "/posts"
 
   socialIcons:
     - name: github
@@ -28,6 +41,17 @@ params:
       url: "https://open.spotify.com/user/9nksd7kzg4meppj2r4kg6cldg?si=fce19c5d8fb34c31"
     - name: buymeacoffee
       url: "https://www.buymeacoffee.com/timrekelj"
+
+menu:
+  main:
+      - identifier: categories
+        name: categories
+        url: /categories/
+        weight: 10
+      - identifier: tags
+        name: tags
+        url: /tags/
+        weight: 20
 
 taxonomies:
   category: categories
