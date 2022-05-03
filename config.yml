@@ -14,18 +14,14 @@ params:
 
   favicon: "/static/favicon.ico"
 
-  # homeInfoParams:
-  #   Title: "Welcome to my blog"
-  #   Content: "My name is Tim Rekelj. I am a student at the Faculty of Computer and Information Science in Ljubljana, Slovenia. The way computers work is fascinating and this curiosity is what got me into computer science at a young age. I enjoy programming (especially game development) and I wish to make it my career in the future."
   profileMode:
         enabled: true
-        title: "Tim Rekelj" # optional default will be site title
-        subtitle: "Welcome to my blog"
-        imageUrl: "https://i.ibb.co/5vX0Qgj/profile.jpg" # optional
-        #imageUrl: "static/profile.jpg" # optional
-        imageTitle: "Profile image" # optional
-        imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
+        title: "Tim Rekelj"
+        subtitle: "My name is Tim Rekelj. I am a student at the Faculty of Computer and Information Science in Ljubljana, Slovenia. The way computers work is fascinating and this curiosity is what got me into computer science at a young age. I enjoy writing code and I wish to make it my career in the future. This is my blog, so everybody can see stuff I'm interested in and learn with me."
+        imageUrl: "https://i.ibb.co/5vX0Qgj/profile.jpg"
+        imageTitle: "Profile image"
+        imageWidth: 120
+        imageHeight: 120
         buttons:
           - name: Open blog
             url: "/posts"
